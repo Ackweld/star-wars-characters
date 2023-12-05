@@ -1,0 +1,19 @@
+.buttonEnabled {
+    padding: 20px;
+    color: yellow;
+    background: transparent;
+    border: none;
+    text-shadow: 0 0 0 transparent; /* Set initial state */
+    transition: text-shadow 0.2s ease;
+
+    &:hover {
+        cursor: pointer;
+        text-shadow: 0 0 20px yellow;
+    }
+}
+.buttonDisabled {
+    padding: 20px;
+    color: rgb(88, 88, 0);
+    background: transparent;
+    border: none;
+}

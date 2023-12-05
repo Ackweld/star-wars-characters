@@ -1,0 +1,64 @@
+.center {
+    padding: 15px;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    background-color: rgb(42, 42, 42);
+    padding: 20px;
+    width: 30vw;
+    margin-top: 50px;
+}
+
+.card h2 {
+    padding: 20px;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+dt {
+    width: 50%;
+    margin-bottom: 1px;
+    background-color: rgb(27, 27, 27);
+    box-sizing: border-box; 
+    padding: 20px;
+}
+dd {
+    display: flex;
+    margin-left: auto;
+    width: 50%;
+    margin-bottom: 1px;
+    background-color: rgb(27, 27, 27);
+    box-sizing: border-box; 
+    padding: 20px;
+    justify-content: right;
+}
+
+@media (max-width: 670px) { 
+    .card {
+        width: 85vw;
+    }
+    .dl dt {
+        width: 100%;
+        margin: 1px;
+        background-color: rgb(27, 27, 27);
+    }
+    .dl dd {
+        width: 100%;
+        margin: 1px;
+        background-color: rgb(27, 27, 27);
+    }
+}
