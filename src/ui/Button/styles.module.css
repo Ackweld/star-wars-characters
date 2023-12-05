@@ -3,7 +3,7 @@
     color: yellow;
     background: transparent;
     border: none;
-    text-shadow: 0 0 0 transparent; /* Set initial state */
+    text-shadow: 0 0 0 transparent;
     transition: text-shadow 0.2s ease;
 
     &:hover {

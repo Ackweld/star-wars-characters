@@ -12,7 +12,6 @@ body {
   color: yellow;
   display: flex;
   justify-content: center;
-  /* padding: 2rem; */
   min-height: 100vh;
 }
 
